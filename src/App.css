@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: #ffffff ;
+    margin: 0 auto ;
+    color: black ;
+  line-height: 1.6 ;
+  font-family: 'Alata', sans-serif;
+  overflow-x: hidden;
+    }
+
+/* Top Nav */
+.nav1 {
+  background-color: #262626;;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  height: 4rem;
+  
+}
+#socials .fab {
+  color: #fca440;
+  font-size: larger;
+}
+.nav1 .order {
+  color: #ffffff;
+  background-color: rgb(207, 9, 9);
+  border: none;
+  border-radius: 0.7rem;
+  align-items: center;
+  justify-items: center;
+  height: 2.5rem;
+  width: 8rem;
+  font-size: 1.2rem;
+}
+/* Top Nav */
+
+/* Navbar1 */
+#Navbar1 {
+  color: #000;
+
+}
+
+#Navbar1 a {
+  color: #000;
+  font-weight: 500;
+}
+
+
+/* Showcase */
+.showcase {
+   margin: 0;
+  padding: 0;
+  background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url('./img/hero_2.jpg');
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden; 
+}
+
+.showcase .showcase-content {
+  align-items: center;
+  justify-items: center;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.showcase .showcase-content h1 {
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffa742;
+}
+
+.showcase .showcase-content h2 {
+  font-size: 5rem;
+}
+
+.showcase .showcase-content .welcome{
+  font-family: 'Pacifico', cursive;
+}
+
+.showcase input {
+  padding: 0.5rem;
+  color: #ffa742;
+  display: inline-block;
+  margin-top: 40px;
+  border-color: #ffa742;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: transparent;
+}
+
+.showcase input:hover{
+  color: #000;
+  border: none;
+  background-color: #fca440;
+}
+
+
+/* Showcase */
+
+/* Footer */
+.footer-logo {
+  width: 10rem;
+  height: 10rem;
+}
+/* Footer */
+
+/* Media Query for Tablet device */
+
+@media (max-width: 768px) { 
+  .hide-on-small {
+    display: none;
+  }
+
+  .showcase {
+
+    height: 70vh;
+    
+   }
+}
+
+/* Media Query for Tablet device */
+
+
+/* Media Query for mobile device */
+
+@media screen and (max-width: 580px) { 
+.hide-on-small {
+  display: none;
+}
+
+/* Showcase */
+.showcase {
+
+ height: 50vh;
+ 
+}
+
+
+.showcase .showcase-content h1 {
+ font-size: 1.6rem;
+}
+
+.showcase .showcase-content h2 {
+ font-size: 3rem;
+}
+
+}
+/* Media Query for mobile device */
