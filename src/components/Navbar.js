@@ -18,17 +18,17 @@ const Navbar = () => {
         </li>
         <li class="nav-item">
         <a className="nav-link">
-                <i class="fa fa-instagram"></i>
+                <i class="fab fa-instagram"></i>
             </a>
         </li>
         <li class="nav-item">
             <a className="nav-link">
-                <i class="fa fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
             </a>
         </li>
         <li class="nav-item">
             <a className="nav-link">
-                <i class="fa fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
             </a>
         </li>
       </ul>
