@@ -104,6 +104,40 @@ body {
 
 /* Showcase */
 
+
+/* menu */
+
+.st-menu{
+  text-align: center;
+  padding-top: 2%;
+}
+.st-our{
+  color: #fca440;
+}
+#st-tabs{
+align-self: center;
+}
+
+.menu .nav-link {
+  display: initial;
+  color: #000 !important;
+} 
+
+.st-card{
+  border: none!important;
+}
+.menu .btn{
+  color: #000!important;
+
+}
+.menu .btn:hover{
+  background-color: #fca440!important;
+  border: 0;
+  
+}
+/* menu */
+
+
 /* Footer */
 .footer-logo {
   width: 10rem;
@@ -153,3 +187,10 @@ body {
 
 }
 /* Media Query for mobile device */
+
+@media (min-width: 576px){
+  .card-deck .card {
+    margin-bottom: 15px!important;
+    border:none!important;
+}
+}
