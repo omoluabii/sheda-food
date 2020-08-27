@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sheda-food/static/css/main.4862173b.chunk.css",
+    "main.js": "/sheda-food/static/js/main.bd4f0137.chunk.js",
+    "main.js.map": "/sheda-food/static/js/main.bd4f0137.chunk.js.map",
+    "runtime-main.js": "/sheda-food/static/js/runtime-main.192d3ea1.js",
+    "runtime-main.js.map": "/sheda-food/static/js/runtime-main.192d3ea1.js.map",
+    "static/css/2.a09d231f.chunk.css": "/sheda-food/static/css/2.a09d231f.chunk.css",
+    "static/js/2.ae40181c.chunk.js": "/sheda-food/static/js/2.ae40181c.chunk.js",
+    "static/js/2.ae40181c.chunk.js.map": "/sheda-food/static/js/2.ae40181c.chunk.js.map",
+    "index.html": "/sheda-food/index.html",
+    "precache-manifest.954db98a62b94a138634a6ba9cb1ea12.js": "/sheda-food/precache-manifest.954db98a62b94a138634a6ba9cb1ea12.js",
+    "service-worker.js": "/sheda-food/service-worker.js",
+    "static/css/2.a09d231f.chunk.css.map": "/sheda-food/static/css/2.a09d231f.chunk.css.map",
+    "static/css/main.4862173b.chunk.css.map": "/sheda-food/static/css/main.4862173b.chunk.css.map",
+    "static/js/2.ae40181c.chunk.js.LICENSE.txt": "/sheda-food/static/js/2.ae40181c.chunk.js.LICENSE.txt",
+    "static/media/food1.png": "/sheda-food/static/media/food1.f390c60c.png",
+    "static/media/App.css": "/sheda-food/static/media/hero_2.5ac1f2eb.jpg",
+    "static/media/logo1.png": "/sheda-food/static/media/logo1.fe81e25d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.192d3ea1.js",
+    "static/css/2.a09d231f.chunk.css",
+    "static/js/2.ae40181c.chunk.js",
+    "static/css/main.4862173b.chunk.css",
+    "static/js/main.bd4f0137.chunk.js"
+  ]
+}
