@@ -12,6 +12,7 @@ const HowItWorks = () => {
                 <div class="card h-100 card shadow">
 
                 <div class="card-body">
+                <i class=" fa fa-2x fa-spoon"></i>
                     <h4> Choose your Tasty Food </h4>
                     <p class="card-text"> Pick your favourite dish from our Menu or Select from Categories</p>
             
@@ -23,6 +24,7 @@ const HowItWorks = () => {
                 <div class="card h-100 card shadow">
 
                 <div class="card-body">
+                <i class=" fa fa-2x fa-money"></i>
                     <h4> Confirm your Payment </h4>
                     <p class="card-text"> Order and confirm your Payment.</p>
             
@@ -32,6 +34,7 @@ const HowItWorks = () => {
             <div class="col mb-5 ">
                 <div class="card h-100 card shadow">
                 <div class="card-body">
+                <i class=" fa fa-2x fa-truck"></i>
                 <h4> Delivery </h4>
                     <p class="card-text"> Your Food will be delivered to your preferred address.</p>
                     

@@ -163,6 +163,13 @@ color: #fca440;
   height: 15rem;
 }
 
+#HowItWorks i {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 100%;
+  text-align: center;
+}
+
 
 /* Homepage2 */
 
