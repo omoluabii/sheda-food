@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sheda-food/precache-manifest.954db98a62b94a138634a6ba9cb1ea12.js"
+  "/sheda-food/precache-manifest.60c8d95c22a18b0b034a78535e5df8fb.js"
 );
 
 self.addEventListener('message', (event) => {
