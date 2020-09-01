@@ -1,20 +1,22 @@
 import React from 'react';
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
-import Homepage from './components/Homepage/Homepage'
-import Menu from './components/Menu/menu'
 import Footer from './components/Footer/Footer'
-import HowItWorks from './components/How-it-works/How-it-works'
+import Home from './pages/Home'
+import UserDashboard from './pages/UserDashboard'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
     <Navbar/>
-    <Homepage/>
-    <HowItWorks/>
-    <Menu/>
+      <Switch>
+      <Route exact path="/" component={Home}/>
+        <Route exact path="/account" component={UserDashboard}/>
+
+      </Switch>
     <Footer/>
-    </>
+    </BrowserRouter>
   );
 }
 

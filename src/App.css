@@ -19,35 +19,6 @@ body {
   background-color: #fca440!important;
 }
 
-/* Top Nav 
-.nav1 {
-  background-color: #262626;;
-  color: #ffffff;
-  text-align: center;
-  align-items: center;
-  height: 4rem;
-  
-}
-#socials .fab {
-  color: #ffa742;
-  font-size: larger;
-}
-.nav1 .order {
-  color: #ffffff;
-  background-color: rgb(207, 9, 9);
-  border: none;
-  border-radius: 0.7rem;
-  align-items: center;
-  justify-items: center;
-  height: 2.5rem;
-  width: 8rem;
-  font-size: 1.2rem;
-}
-
-.nav1 a {
-  color: #ffa742;
-}
-/* Top Nav */
 
 /* Navbar1 */
 #Navbar1 {
@@ -75,6 +46,7 @@ body {
 
 nav .toggler {
 color: #fca440;
+
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -90,14 +62,17 @@ color: #fca440;
 #login .register {
   float: right;
 }
-
+.forget-password {
+  font-size: 0.8rem;
+  text-align: center!important;
+}
 /* Navbar1 */
 
 /* Showcase */
 .showcase {
    margin: 0;
   padding: 0;
-  background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url('./img/hero_2.jpg');
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('./img/hero_2.jpg');
   background-size: cover;
   position: relative;
   width: 100vw;
@@ -189,10 +164,25 @@ border-radius: 0.5rem;
 font-size: 0.8rem;
 }
 
+#HowItWorks h3 {
+  font-family: 'Pacifico', cursive;
+}
+
 
 /* How it works */
 
-/* menu */
+/* Menu */
+.menu .st-menu {
+  font-family: 'Pacifico', cursive;
+}
+
+
+.menu .nav-link:hover,
+.menu .nav-link:focus {
+  color: #ffa742!important;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .st-menu{
   text-align: center;
@@ -324,7 +314,7 @@ footer a {
 /* Homepage2 */
 
 }
-/* Media Query for mobile device */
+
 
 @media (min-width: 576px){
   .card-deck .card {
@@ -332,3 +322,129 @@ footer a {
     border:none!important;
 }
 }
+/* Media Query for mobile device */
+
+
+
+/* User Page */
+
+/* User Showcase */
+.usershowcase {
+  margin: 0;
+ padding: 0;
+ background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url('./img/pepper.jpg');
+ background-size: cover;
+ position: relative;
+ width: 100vw;
+ height: 35vh;
+ position: relative;
+ overflow-y: hidden; 
+}
+
+.usershowcase .usershowcase-content {
+ align-items: center;
+ justify-items: center;
+ color: #ffffff;
+ text-align: center;
+ margin-top: 15vh;
+}
+
+.usershowcase .usershowcase-content h2 {
+ font-size: 3rem;
+}
+
+/* User Showcase */
+
+/* User Account */
+
+.account .title {
+  font-size: 1.7rem;
+  text-align: center ;
+  text-decoration: underline;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.account .button {
+  padding: 0.5rem;
+  color: #000;
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background: #fca440;
+  border-radius: 0.5rem;
+  border-color: none;
+}
+
+/* Start Wallet */
+.account .account-balance {
+margin-top: 4rem!important;
+text-align: center!important;
+}
+.account .account-balance .cash {
+  font-size: 2.5rem;
+}
+
+.account .account-balance .add-fund {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.account .account-balance input {
+  color: #000;
+  justify-content: center;
+}
+
+/* End Wallet */
+
+
+/* Account Details */
+.account .account-details ul {
+list-style: none;
+}
+
+.account .account-details input {
+  font-size: 1rem;
+  color: #000;
+
+}
+
+.account .account-details input:focus {
+  border-inline-end-color: green;
+}
+
+/* Account Details */
+
+
+/* Start Transaction  */
+.transaction .title {
+  font-size: 2.5rem;
+  text-align: center ;
+  text-decoration: underline;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 2rem;
+}
+
+
+/* End Transaction  */
+
+/* End User Account */
+
+
+/* Media Query for mobile device */
+
+@media screen and (max-width: 580px) {
+  .usershowcase {
+   height: 20vh;
+  }
+
+.usershowcase .usershowcase-content {
+    margin-top: 10vh;
+   }
+}
+
+
+/* Media Query for mobile device */
+/* User Page */
