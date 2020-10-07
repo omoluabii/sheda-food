@@ -74,9 +74,9 @@ const Menu = () => {
                         <Button variant="outline-dark">Add To Cart</Button>
                       </Card.Body>
                     </Card>
-                    <Card class="st-card mb-3">
+                    <Card class="st-card mb-3 ">
                       <Card.Img variant="top" src={img6} />
-                      <Card.Body>
+                      <Card.Body class="shadow-sm p-3">
                         <Card.Title>CHICKEN WRAP WITH CHIPS</Card.Title>
                         <Button variant="outline-dark">Add To Cart</Button>
                       </Card.Body>
@@ -85,6 +85,8 @@ const Menu = () => {
                 </div>
               </div>
             </Tab>
+
+
             <Tab eventKey="Lunch" title="Lunch">
               <div>
                 <br />
@@ -140,6 +142,8 @@ const Menu = () => {
                 </div>
               </div>
             </Tab>
+
+
             <Tab eventKey="Dinner" title="Dinner">
               <div>
                 <div>

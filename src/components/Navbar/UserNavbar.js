@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import {Link} from 'react-router-dom'
+import user from './User.png'
 
-const Navbar = () => {
+const Navbar = (props) => {
 
+  const HandleLogout = ( ) => {
+    localStorage.removeItem("token")
+    props.location.push('/')
+  }
   return (
     <nav class="navbar navbar-expand-lg  fixed-top navbar-light " id="Navbar1">
       <Link class="navbar-brand" to="/">  SHEDA <span class="food"> FOOD </span>  {" "}</Link>
@@ -30,13 +35,32 @@ const Navbar = () => {
         <li class="nav-item">
         <Link class="nav-link" to="/account"> ACCOUNT </Link>
         </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/order"> MY ORDER </Link>
+          </li>
         </ul>
 
         <ul class="navbar-nav ">
-          <li class="nav-item">
-          <Link class="nav-link" to=""> MY ORDER </Link>
+          
+
+          <li>
+
+          <div class="dropdown">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+            JANE DOE 
+            <img class="user-logo" width="25" height="25" alt="" src={user}/>
+            </a>
+
+            <div class="dropdown-menu logout" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item logout2" onClick={HandleLogout} >Logout</a>
+            
+            </div>
+          </div>
           </li>
+
         </ul>
+
+
       </div>
 
     </nav>

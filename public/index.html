@@ -16,9 +16,9 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="%PUBLIC_URL%/fontawesome-free-5.14.0-web/css/all.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="%PUBLIC_URL%/fonts/Alata-Regular.ttf">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -34,10 +34,14 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <script>
- 
-    </script>
-    <!--
+
+    <script type="text/javascript">
+      $( document ).ready( function() {
+      new WOW().init();
+    });
+      $( ".wow" ).addClass( "fadeIn ZoomIn" );</script>
+
+ <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 

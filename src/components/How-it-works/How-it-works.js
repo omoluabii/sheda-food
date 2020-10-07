@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../How-it-works/delivery.svg"
+import img2 from "../How-it-works/spoon.svg"
+import img3 from "../How-it-works/pay.svg"
 
 const HowItWorks = () => {
   return (
@@ -12,7 +15,7 @@ const HowItWorks = () => {
           <div class="col mb-5 ">
             <div class="card h-100 card shadow">
               <div class="card-body">
-                <i class=" fa fa-2x fa-spoon"></i>
+              <img src={img2} width="60px" />
                 <h4> Choose your Tasty Food </h4>
                 <p class="card-text">
                   {" "}
@@ -25,7 +28,7 @@ const HowItWorks = () => {
           <div class="col mb-5 ">
             <div class="card h-100 card shadow">
               <div class="card-body">
-                <i class=" fa fa-2x fa-money"></i>
+              <img src={img3} width="60px"  />
                 <h4> Confirm your Payment </h4>
                 <p class="card-text"> Order and confirm your Payment.</p>
               </div>
@@ -34,7 +37,7 @@ const HowItWorks = () => {
           <div class="col mb-5 ">
             <div class="card h-100 card shadow">
               <div class="card-body">
-                <i class=" fa fa-2x fa-truck"></i>
+               <img src={img1} width="60px"  />
                 <h4> Delivery </h4>
                 <p class="card-text">
                   {" "}

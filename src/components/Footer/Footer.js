@@ -3,7 +3,7 @@ import Logo from './logo1.png'
 
 const Footer = () => {
     return ( 
-        <footer class="page-footer font-small unique-color-dark pt-2">
+        <footer class="page-footer  font-small unique-color-dark pt-2">
   
     <div class="container text-center text-md-left mt-5">
 

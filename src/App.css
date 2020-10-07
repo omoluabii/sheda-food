@@ -8,7 +8,7 @@ body {
   line-height: 1.6 ;
   font-family: 'Alata', sans-serif!important;
   overflow-x: hidden;
-
+  
     }
 
 .color-o {
@@ -65,6 +65,31 @@ color: #fca440;
 .forget-password {
   font-size: 0.8rem;
   text-align: center!important;
+}
+
+.logout {
+  color: #fff!important;
+  background-color: #f39d3a!important;
+  width: 1rem!important;
+  margin-top: 2rem;
+  
+}
+.logout2 {
+  color: #fff!important;
+  background-color:none!important;
+  font-size: 1rem;
+  text-align: center!important;
+}
+.logout2:hover {
+  color: #000000!important;
+  background: transparent!important;
+
+}
+
+.user-logo {
+  background-color: #fff;
+  margin: none!important;
+
 }
 /* Navbar1 */
 
@@ -152,21 +177,29 @@ color: #fca440;
 /* Homepage2 */
 
 /* How it works */
+#HowItWorks h3 {
+  font-family: 'Pacifico', cursive;
+}
+
 #HowItWorks .card{
 background-color: #f3c693;
 padding-bottom: 2rem ;
 text-align: left;
 border: none;
 border-radius: 0.5rem;
+color: black;
 }
+
 
 #HowItWorks p {
 font-size: 0.8rem;
 }
-
-#HowItWorks h3 {
-  font-family: 'Pacifico', cursive;
+#HowItWorks h4 {
+  
+  margin-top: 2rem;
 }
+
+
 
 
 /* How it works */
@@ -216,7 +249,7 @@ align-self: center;
 
 /* Footer */
 footer {
-  background: #ecebeb;
+  background: #ecebeb;  
 }
 
 .footer-logo {
@@ -448,3 +481,95 @@ list-style: none;
 
 /* Media Query for mobile device */
 /* User Page */
+
+
+
+/*  Start MY Order Page */
+.myorder .title {
+  font-size: 2.5rem;
+  text-align: center ;
+  text-decoration: underline;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 2rem;
+}
+
+.myorder .add-ons{
+text-align: center;
+margin: 2rem;
+font-size: 1rem;
+}
+
+.home {
+  color: #fca440;
+}
+
+.delete {
+  background-color: transparent!important;
+  color: rgb(201, 11, 11)!important;
+  width: 5rem;
+  font-size: 15px!important;
+  border: none;
+}
+
+.delete:hover {
+  color: red!important;
+  font-size: 16px!important;
+
+}
+
+.myorder .checkout {
+  text-align: center!important;
+  background-color: transparent!important;
+  border-color: #f39d3a!important;
+
+
+}
+
+
+.myorder .checkout {
+  background-color: #f39d3a!important;
+  border-color: none!important;
+  color: #000!important;
+}
+
+.myorder .checkout:hover {
+  text-align: center!important;
+  background-color: transparent!important;
+  border-color: #f39d3a!important;
+}
+/* MY Order Page */
+
+
+/* Page Not Found Page */
+
+.pagenotfound {
+  justify-content: center!important;
+  align-content: center!important;
+  text-align: center;
+}
+
+.pagenotfound img{
+width: 10rem!important;
+margin-top: 5rem;
+}
+
+.pagenotfound .go-home{
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  color: #f39d3a;
+
+  }
+
+  .pagenotfound .go-home:hover {
+    color: black;
+
+  }
+
+  .pagenotfound .sorry{
+    font-family: 'Pacifico', cursive;
+    
+    }
+/* Page Not Found Page */
