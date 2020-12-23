@@ -24,7 +24,7 @@ body {
 #Navbar1 {
   color: #fff;
   background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8),rgba(0,0,0,0.1));
-
+ 
 }
 
 #Navbar1 a {
@@ -188,7 +188,7 @@ text-align: left;
 border: none;
 border-radius: 0.5rem;
 color: black;
-}
+} 
 
 
 #HowItWorks p {

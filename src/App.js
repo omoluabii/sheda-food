@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import './App.css';
-import 'animate.css'
 import './Animate.css'
 import GenNavbar from './components/Navbar/Navbar'
 import UserNavbar from './components/Navbar/UserNavbar'
